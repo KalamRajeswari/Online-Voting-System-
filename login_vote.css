@@ -1,0 +1,70 @@
+body{
+    background-image:url('images/vot2.jpg');
+   /* background-image:linear-gradient(rgba(199, 193, 206, 0.911),rgba(225, 231, 236, 0.959)),url(images/vot2.jpg);*/
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.form{
+    width:500px;
+    height:500px;
+    background-color:rgba(37, 98, 109, 0.322);
+    border-radius:10px;
+    border:none;
+    outline:none;
+    margin-left:100px;
+}
+.form .row{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+input[type="text"]{
+    flex:1;
+    margin-left:50px;
+    width:80%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:20px;
+    padding:15px;
+    outline:0;
+    border:0;
+    border-radius:10px;
+    align-content: left;
+}
+input[type="password"]{
+    flex:2;
+    margin-left:50px;
+    width:80%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:20px;
+    padding:15px;
+    outline:0;
+    border:0;
+    border-radius:10px;
+    align-content: left;
+}
+button{
+    flex:3;
+    margin-left:200px;
+    align-content: center;
+    margin-top:50px;
+    padding:15px;
+    font-size:15px;
+    font-family:'Robotto';
+    background-color:rgb(49, 87, 49);
+    width:15%;
+    outline:0;
+    border:0;
+    border-radius:10px;
+    color:#fff;
+    cursor:pointer;
+}
+.link{
+    margin-top:20px;
+    margin-left:180px;
+    font-size:15px;
+    font-weight:10px;
+    font-family:serif;
+}

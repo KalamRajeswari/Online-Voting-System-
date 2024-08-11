@@ -1,0 +1,9 @@
+.result{
+    text-align:center;
+    width:50%;
+    height:50%;
+    background-color:rgba(37, 98, 109, 0.322);
+    color:black;
+    font-size:20px;
+    margin-top:30px;
+}
